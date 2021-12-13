@@ -1,0 +1,174 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header {
+    font-family: sans-serif;
+    background-color: #c0bb93;
+    display: flex;
+    flex-direction: column;
+    padding: 16px 210px;
+    gap: 64px;
+    padding-bottom: 128px;
+}
+
+.up {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+button {
+    border-width: 0;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #c2961e;
+    color: white;
+    border-radius: 8px;
+    padding: 8px 32px;
+}
+
+.main {
+    display: flex;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px;
+    padding-bottom: 128px;
+}
+
+.info {
+    margin: 64px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.imgtexts {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgtext {
+    border-style: solid;
+    border-color: burlywood;
+    border-width: 2px;
+    padding: 8px;
+    width: 230px;
+    height: 400px;
+    text-align: center;
+}
+
+.quote {
+    background-color: rgb(217, 226, 215);
+    padding: 128px 256px;
+}
+
+.quote
+.text {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quote
+.person {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: end;
+    padding: 16px 32px;
+}
+
+.footer {
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    display: flex;
+    background-color: #c0bb93;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 36px;
+}
+
+.links {
+    display: flex;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.text h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #faf9f8;
+}
+
+.main img {
+    border-width: 8px;
+    border-style: groove;
+    border-color: black;
+    width: 450px;
+    margin-top: 32px;
+}
+
+.main p {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.signup {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 128px 128px;
+}
+
+.emailme {
+    color: white;
+    display: flex;
+    background-color: #c2961e;
+    align-items: center;
+    justify-content: space-between;
+    padding:32px 64px;
+    border-radius: 8px;
+    gap: 256px;
+}
+
+.signtext
+.so {
+    font-size: 24px;
+}
+
+.emailme
+button {
+    border-style: solid;
+    border-color: white;
+}
+
+.signtext
+p {
+    font-size: 18px;
+}
